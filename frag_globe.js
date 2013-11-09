@@ -472,13 +472,10 @@
         var endTime = d2.getTime();
         var TimeDelta = endTime/1000.0 - startTime/1000.0;
         //var fps = 1 / TimeDelta;
-        //console.debug(TimeDelta); 
-       
+        //console.debug(TimeDelta);        
 
         time += 0.001;
-        window.requestAnimFrame(animate);   
-
-            
+        window.requestAnimFrame(animate);               
     }
  
 
@@ -528,12 +525,12 @@
     }
 
     //front back up down right left
-    skyboxfaces[0] = [gl.TEXTURE_CUBE_MAP_POSITIVE_X, "space_ft.JPG"];
-    skyboxfaces[1] = [gl.TEXTURE_CUBE_MAP_NEGATIVE_X, "space_bk.JPG"];
-    skyboxfaces[2] = [gl.TEXTURE_CUBE_MAP_POSITIVE_Y, "space_up.JPG"];
-    skyboxfaces[3] = [gl.TEXTURE_CUBE_MAP_NEGATIVE_Y, "space_dn.JPG"];
-    skyboxfaces[4] = [gl.TEXTURE_CUBE_MAP_POSITIVE_Z, "space_dn.JPG"];
-    skyboxfaces[5] = [gl.TEXTURE_CUBE_MAP_NEGATIVE_Z, "space_dn.JPG"];
+    skyboxfaces[0] = [gl.TEXTURE_CUBE_MAP_POSITIVE_X, "https://github.com/tiansijie/Project5-WebGL/blob/gh-pages/space_ft.JPG"];
+    skyboxfaces[1] = [gl.TEXTURE_CUBE_MAP_NEGATIVE_X, "https://github.com/tiansijie/Project5-WebGL/blob/gh-pages/space_bk.JPG"];
+    skyboxfaces[2] = [gl.TEXTURE_CUBE_MAP_POSITIVE_Y, "https://github.com/tiansijie/Project5-WebGL/blob/gh-pages/space_up.JPG"];
+    skyboxfaces[3] = [gl.TEXTURE_CUBE_MAP_NEGATIVE_Y, "https://github.com/tiansijie/Project5-WebGL/blob/gh-pages/space_dn.JPG"];
+    skyboxfaces[4] = [gl.TEXTURE_CUBE_MAP_POSITIVE_Z, "https://github.com/tiansijie/Project5-WebGL/blob/gh-pages/space_dn.JPG"];
+    skyboxfaces[5] = [gl.TEXTURE_CUBE_MAP_NEGATIVE_Z, "https://github.com/tiansijie/Project5-WebGL/blob/gh-pages/space_dn.JPG"];
 
     loadCubeTextrue(skyboxTex, skyboxfaces);
 
