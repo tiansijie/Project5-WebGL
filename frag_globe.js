@@ -472,7 +472,7 @@
         var endTime = d2.getTime();
         var TimeDelta = endTime/1000.0 - startTime/1000.0;
         //var fps = 1 / TimeDelta;
-        console.debug(TimeDelta); 
+        //console.debug(TimeDelta); 
        
 
         time += 0.001;
